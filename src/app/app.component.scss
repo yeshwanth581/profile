@@ -2,7 +2,7 @@
     background-color: #060b16;
     z-index: 1;
     opacity: 1;
-    height: 104vh;
+    height: 105vh;
     width: 100vw;
     .columns {
         .center {
@@ -56,3 +56,27 @@
         }
     }
 }
+
+@media only screen and (max-width : 500px){
+    .landing {
+        .columns {
+            .center {
+                padding-top: 10%;
+            }
+            .landing-text {
+                padding-top: 7%;
+                font-size: 2rem;
+                .hello {
+                    font-size: 1.5rem;
+                }
+                .role {
+                    font-size: 1.5rem;
+                }
+                .learn-more {
+                    font-size: 0.7rem;
+                    
+                }
+            }
+        }
+    }
+}  
