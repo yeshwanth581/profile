@@ -1,0 +1,77 @@
+{
+  "configVersion": 1,
+  "index": "https://yeshwanth581.github.io/profile/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://yeshwanth581.github.io/profile/es2015-polyfills.12eccedba99646c7daca.js",
+        "https://yeshwanth581.github.io/profile/favicon.ico",
+        "https://yeshwanth581.github.io/profile/index.html",
+        "https://yeshwanth581.github.io/profile/main.5e1d63d7402b810c0159.js",
+        "https://yeshwanth581.github.io/profile/polyfills.407a467dedb63cfdd103.js",
+        "https://yeshwanth581.github.io/profile/runtime.a5dd35324ddfd942bef1.js",
+        "https://yeshwanth581.github.io/profile/styles.b9d64038c44c8f0eaaee.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://yeshwanth581.github.io/profile/assets/administrator1.svg",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-128x128.png",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-144x144.png",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-152x152.png",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-192x192.png",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-384x384.png",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-512x512.png",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-72x72.png",
+        "https://yeshwanth581.github.io/profile/assets/icons/icon-96x96.png",
+        "https://yeshwanth581.github.io/profile/assets/portfolio.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://yeshwanth581.github.io/profile/assets/administrator1.svg": "6f673b122978b837be6a637800a59dcc030f201c",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://yeshwanth581.github.io/profile/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://yeshwanth581.github.io/profile/assets/portfolio.png": "f1e9ebb7252476992a216c116836e93404c02660",
+    "https://yeshwanth581.github.io/profile/es2015-polyfills.12eccedba99646c7daca.js": "e546b81560cf13f04d7e6a3944e5e3087f131356",
+    "https://yeshwanth581.github.io/profile/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://yeshwanth581.github.io/profile/index.html": "be0b23770bccce855437953c434a69161c161b6a",
+    "https://yeshwanth581.github.io/profile/main.5e1d63d7402b810c0159.js": "e38bf05f4bcfb6305728e45e8ba31b0b45a8a55c",
+    "https://yeshwanth581.github.io/profile/polyfills.407a467dedb63cfdd103.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "https://yeshwanth581.github.io/profile/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://yeshwanth581.github.io/profile/styles.b9d64038c44c8f0eaaee.css": "584122e5ac093082648f95c54cea4623011c6880"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
