@@ -1,0 +1,80 @@
+<div class="about">
+  <div class="columns is-desktop is-tablet">
+    <div class="column header">
+      ABOUT
+    </div>
+  </div>
+  <div class="columns is-desktop is-tablet profile">
+    <div class="column is-6">
+      <div class="columns is-desktop is-tablet">
+        <div class="column">
+          <b>My Profile</b>
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          I am a problem solver, a creative and a thinker. I am always looking for the next challenge whether it be
+          within programming or my other fields of interest. I have a few different passions; programming, learning new
+          technologies, watching anime, music & spending time with my friends/family.
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          <b>Name</b><br>Yeshwanth Raghavendra Gollapalli
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          <b>Date of Birth</b><br>10-July-1995
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          <b>Place of Birth</b><br>Nellore,Andhra Pradesh, India
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          <b>Current Location</b><br>Hyderabad, Telangana, India
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          <b>Current Job</b><br>Angular Developer in Tata Consultancy Services
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          <b>Total Experience</b><br>2.1years
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column is-full">
+          <b>Email</b><br><a href="mailto:yeshwanthraghavendra@gmail.com">yeshwanthraghavendra@gmail.com</a>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="column is-6">
+      <div class="columns is-desktop is-tablet">
+        <div class="column">
+          <b>My Skills</b>
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet">
+        <div class="column">
+          I have been within the Software development industry for 2 years now, below you will find a list of some of
+          the languages and framworks i like and work on. I'm a Angular Developer who worked in 3 projects till now.
+        </div>
+      </div>
+      <div class="columns is-desktop is-tablet" *ngFor="let skill of skills">
+        <div class="column is-full skill">
+          <b>{{skill.name}} ( {{skill.proficiency}}% )</b><br>
+          <progress class="progress" [value]="skill.proficiency"
+            max="100">{{proficiency}}</progress>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:800');
+
+// Update Bulma's global variables
+$family-sans-serif: "Lato", sans-serif;
+$progress-value-background-color : #cc005fd3;
+@import "../node_modules//bulma//bulma.sass";
+html {
+    scroll-behavior: smooth;
+}

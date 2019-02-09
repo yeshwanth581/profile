@@ -1,0 +1,36 @@
+.recentWorks {
+    height: 100%;
+    width: 100vw;
+    background-color: whitesmoke;
+    text-align: center;
+
+    a {
+        color: #cc005fd3;
+    }
+
+    .header {
+        font-size: 1.4rem;
+        font-family: "Raleway", sans-serif;
+        color: #cc005fd3;
+        font-weight: 900;
+        letter-spacing: 0.3rem;
+        padding-top: 4%;
+    }
+
+    .profile {
+        text-align: center;
+        padding: 3rem;
+        font-size: 1.4rem;
+        font-family: "Raleway", sans-serif;
+        color: black;
+        font-weight: 900;
+        letter-spacing: 0.3rem;
+    }
+    
+    .responsive {
+        width: 100%;
+        height: 30vh;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

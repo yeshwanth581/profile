@@ -1,0 +1,27 @@
+.about {
+    width: 100vw;
+    background-color: white;
+    text-align: center;
+
+    a {
+        color: #cc005fd3;
+    }
+
+    .header {
+        font-size: 1.4rem;
+        font-family: "Raleway", sans-serif;
+        color: #cc005fd3;
+        font-weight: 900;
+        letter-spacing: 0.3rem;
+        padding-top: 4%;
+    }
+
+    .profile {
+        text-align: left;
+        padding: 3rem;
+    }
+    
+    .skill:hover {
+        cursor: pointer;
+    }
+}
