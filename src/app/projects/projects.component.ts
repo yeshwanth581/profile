@@ -16,7 +16,7 @@ export class ProjectsComponent implements OnInit {
       {
         name:'Portfolio',
         description: 'This is a website that describes details, works.',
-        imageUrl: "../../assets/portfolio.png",
+        imageUrl: "./../../assets/portfolio.png",
         isImageVisisble: true
       }
     )
